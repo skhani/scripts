@@ -1,5 +1,6 @@
 #!/bin/bash
-cd /path/to/framework/library
+#http://www.mwop.net/blog/134-exuberant-ctags-with-PHP-in-Vim.html
+cd /home/shahinm/lib/ZendFramework/library
 exec ctags-exuberant -f ~/.vim/mytags/framework \
     -h \".php\" -R \
     --exclude=\"\.svn\" \
